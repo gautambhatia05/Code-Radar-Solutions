@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
     getchar();
     scanf("%s ",str1);
-    getchar():
+    getchar();
     scanf("%s",str2);
     printf("Name: %s\n",str1);
     printf("Age: %d\n",a);
