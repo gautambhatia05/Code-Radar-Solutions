@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n=3.14;
-    scanf("%d",&n);
-    printf("%d",n);
+    float n=3.14;
+    scanf("%f",&n);
+    printf("%f",n);
     return 0;
 }
