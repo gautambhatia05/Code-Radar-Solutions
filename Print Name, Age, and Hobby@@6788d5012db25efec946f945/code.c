@@ -7,7 +7,7 @@ int main(){
     getchar();
     scanf("%s ",str1);
     getchar();
-    scanf("%s",str2);
+    scanf("%[^\n]",str2);
     printf("Name: %s\n",str1);
     printf("Age: %d\n",a);
     printf("Hobby: %s\n",str2);
