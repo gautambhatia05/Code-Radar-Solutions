@@ -2,7 +2,7 @@
 int main(){
     char str1[50];
     int a;
-    char str[50];
+    char str2[50];
     scanf("%d",&a);
     scanf("%s %s",str1,str2);
     printf("Name: %49s\n",str1);
