@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(){
-    int x;
-    int y;
-    printf("enter e number:");
-    scanf("%d%d",&x,&y);
+    int a,b;
+    scanf("%d%d",&a,&b);
     if(a>b){
-        printf("%d is greatest");
-    }
+        printf("%d",a);
+    }else
+    printf("%d",b);
     return 0;
 }
