@@ -2,11 +2,9 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a>0){
+    if(a>0&&a<0){
         printf("Positive");
-    } if(a<0){
-    printf("Negative");
     }else
-    printf("Zero");
+    printf("Negative")
     return 0;
 }
