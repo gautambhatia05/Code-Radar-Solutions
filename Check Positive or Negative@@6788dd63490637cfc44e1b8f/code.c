@@ -5,6 +5,6 @@ int main(){
     if(a>0&&a<0){
         printf("Positive");
     }else
-    printf("Negative")
+    printf("Negative");
     return 0;
 }
