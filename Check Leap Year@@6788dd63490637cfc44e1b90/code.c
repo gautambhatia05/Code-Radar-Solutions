@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int n;
+    float result;
+    scanf("%f",&n);
+    if(n%2==0){
+        printf("Leap Year\n");
+    }else
+    printf("Not a Leap Year\n");
+    return 0;
+}
