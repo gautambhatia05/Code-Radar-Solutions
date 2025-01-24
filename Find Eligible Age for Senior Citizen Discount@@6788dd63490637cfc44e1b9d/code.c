@@ -2,9 +2,9 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a>=60){
-        printf("Eligible");
+    if(a<=60){
+        printf("Not Eligible");
     }else
-    printf("Not Eligibile");
+    printf("Eligibile");
     return 0;
 }
