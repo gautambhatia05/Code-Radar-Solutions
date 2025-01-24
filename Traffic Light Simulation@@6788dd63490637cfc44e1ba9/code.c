@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char color;
-    scanf("%c",&c);
+    scanf(" %c", &c);
     switch (color){
         case 'R':
         printf("Stop\n");
