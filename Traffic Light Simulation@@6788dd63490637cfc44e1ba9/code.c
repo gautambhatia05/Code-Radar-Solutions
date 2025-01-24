@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
-    char rgy;
+    char color;
     scanf("%c",&c);
-    switch (rgy){
-        case r:
+    switch (color){
+        case 'R':
         printf("Stop\n");
         break;
-        case g:
+        case 'G':
         printf("Go\n");
         break;
-        case y:
+        case 'Y':
         printf("Slow Down\n");
         break;
         default:
