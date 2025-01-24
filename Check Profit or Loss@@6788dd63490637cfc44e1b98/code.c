@@ -5,7 +5,9 @@ int main(){
     scanf("%d",&b);
     if(a<=b){
         printf("Profit");
-    }else 
+    }else if(a>=b){
         printf("Loss");
+    }else
+    printf("No Profit No Loss");
     return 0;
 }
