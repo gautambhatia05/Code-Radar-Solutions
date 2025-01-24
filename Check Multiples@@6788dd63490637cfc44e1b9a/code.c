@@ -4,7 +4,8 @@ int main(){
     scanf("%d%d",&a,&b);
     if(a%5==0){
         printf("Yes");
-    }else
+    }else(b%3==0){
     printf("No");
+}
     return 0;
 }
