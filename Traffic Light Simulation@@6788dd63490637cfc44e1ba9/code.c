@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    char color;
+    char RGY;
     scanf(" %c", &c);
-    switch (color) {
+    switch (RGY) {
         case 'R':
         printf("Stop\n");
         break;
