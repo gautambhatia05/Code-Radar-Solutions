@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char RGY;
-    scanf(" %c", &c);
+    scanf(" %c", &RGY);
     switch (RGY) {
         case 'R':
         printf("Stop\n");
@@ -14,6 +14,7 @@ int main(){
         break;
         default:
         printf("Invalid input\n");
+        break;
          }
     return 0;
 }
