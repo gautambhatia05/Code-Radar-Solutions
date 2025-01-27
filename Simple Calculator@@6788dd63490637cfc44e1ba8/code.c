@@ -18,6 +18,7 @@ int main(){
         break;
         case '/':
         x = a/b;
+        printf("%f",x);
         break;
         default:
         printf("error");
