@@ -2,6 +2,7 @@
 int main(){
     float a,b,x;
     int choice;
+    scanf("%f%f",&a,&b);
     scanf("%d",&choice);
         switch (choice){
         case '+':
