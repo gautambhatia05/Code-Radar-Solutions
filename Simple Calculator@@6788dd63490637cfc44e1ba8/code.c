@@ -20,8 +20,7 @@ int main(){
         x = a/b;
         printf("%d",x);
         break;
-        default:
-        printf("error");
+        
     }
     return 0;
 }
