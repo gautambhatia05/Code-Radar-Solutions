@@ -10,11 +10,19 @@ int main(){
         printf("%d",x);
         break;
         case '-':
-        x = a-b;
+        if(a<b){
+            x=a-b;
+            printf("%d",x);
+        }else
+        {
+            c=b-a;
+            printf("%d",x);
+        }
+        break;
         printf("%d",x);
         break;
         case '*':
-        x = a*b;
+        x = (a*b);
         printf("%d",x);
         break;
         case '/':
