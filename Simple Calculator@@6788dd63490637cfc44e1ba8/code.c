@@ -7,30 +7,30 @@ int main(){
         switch(choice){
         case'+':
         x = a+b;
-        printf("%d",x);
+        printf("%d\n",x);
         break;
         case'-':
         if(a<b){
             x=a-b;
-            printf("%d",x);
+            printf("%d\n",x);
         }else
         {
             c=b-a;
-            printf("%d",x);
+            printf("%d\n",x);
         }
         break;
-        printf("%d",x);
+        printf("%d\n",x);
         break;
         case'*':
         x = (a*b);
-        printf("%d",x);
+        printf("%d\n",x);
         break;
         case'/':
         x = a/b;
-        printf("%d",x);
+        printf("%d\n",x);
         break;
         default:
-        printf("error");
+        printf("error\n");
         
     }
     return 0;
