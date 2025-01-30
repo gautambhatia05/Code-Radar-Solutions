@@ -5,11 +5,11 @@ int main(){
     char choice;
     scanf("%f%f%c",&a,&b,&choice);
         switch(choice){
-        case '+':
+        case'+':
         x = a+b;
         printf("%d",x);
         break;
-        case '-':
+        case'-':
         if(a<b){
             x=a-b;
             printf("%d",x);
@@ -21,11 +21,11 @@ int main(){
         break;
         printf("%d",x);
         break;
-        case '*':
+        case'*':
         x = (a*b);
         printf("%d",x);
         break;
-        case '/':
+        case'/':
         x = a/b;
         printf("%d",x);
         break;
