@@ -4,23 +4,25 @@ int main(){
     int x;
     char choice;
     scanf("%f%f%c",&a,&b,&choice);
-        switch (choice){
+        switch(choice){
         case '+':
         x = a+b;
-        printf("%f",x);
+        printf("%d",x);
         break;
         case '-':
         x = a-b;
-        printf("%f",x);
+        printf("%d",x);
         break;
         case '*':
         x = a*b;
-        printf("%f",x);
+        printf("%d",x);
         break;
         case '/':
         x = a/b;
-        printf("%f",x);
+        printf("%d",x);
         break;
+        default:
+        printf("error");
         
     }
 }
