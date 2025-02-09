@@ -6,7 +6,7 @@ int n;
         for(int k = 1; k <= n - i; k++) {
             printf(" ");
         } 
-        if(n==2){
+        if(n>1){
             for(int j = 1; j <= (2*i-2); j++)
             printf("%d ",j);
         }else
