@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
     int a,b
-    int x;
     char choice;
-    if(scanf("%d %d %c",&a,&b,&choice)!=3){
+    if(scanf("%d%d%c",&a,&b,&choice)!=3){
         printf("Invalid input\n");
         return 1;
     }
+    int x;
         switch(choice)
         {
         case'+':
@@ -17,16 +17,14 @@ int main(){
         x=a-b;
         printf("%d\n",x);
         break;
-        printf("%d\n",x);
-        break;
         case'*':
-        x = (a*b);
+        x = a*b;
         printf("%d\n",x);
         break;
         case'/':
         if(b!=0){
             c=a/b;
-            printf("%d",x);
+            printf("%d\n",x);
         }else{
             printf("error\n");
             return 1;
