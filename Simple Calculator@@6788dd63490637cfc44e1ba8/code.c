@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     char choice;
-    if(scanf("%d%d%c",&a,&b,&choice)!=3){
+    if(scanf("%d %d", &a, &b, &choice)!=3){
         printf("Invalid input\n");
         return 1;
     }
