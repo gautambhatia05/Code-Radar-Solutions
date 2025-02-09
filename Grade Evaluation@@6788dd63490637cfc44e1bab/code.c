@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <ctype.h>
 int main(){
-    char a,c;
-    scanf("%c,%c",&a,&c);
-    c=toupper(c);
+    char c;
+    scanf("%c",&c);
+
     switch (c){
         case'A':
         printf("Excellent\n");
