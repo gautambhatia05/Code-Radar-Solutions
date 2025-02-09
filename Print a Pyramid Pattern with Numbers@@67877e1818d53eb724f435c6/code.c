@@ -7,7 +7,7 @@ int n;
             printf(" ");
         } 
         if(n==2){
-            for(int j = 1; j <= (2*i-2); j++)
+            for(int j = 1; j <= (2*i-2); j++){
         }else
         for(int j = 1; j <= (2*i-1); j++){
             
