@@ -9,7 +9,7 @@ int main(){
         if(a%i==0){
             printf("Prime\n");
         }else
-        printf("Not prime")
+        printf("Not prime");
     }
     
     return 0;
