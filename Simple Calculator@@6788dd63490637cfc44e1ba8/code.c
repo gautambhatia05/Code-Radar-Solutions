@@ -31,7 +31,7 @@ int main(){
         }
         break;
         default:
-        printf("error\n");
+        printf("Invalid operator\n");
         return 1;
         
     }
