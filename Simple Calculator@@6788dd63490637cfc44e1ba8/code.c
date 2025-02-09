@@ -2,12 +2,12 @@
 int main(){
     int a,b;
     char choice;
-    if(scanf("%d %d", &a, &b, &choice)!=3){
+    if(scanf("%d %d %c", &a, &b, &c)!=3){
         printf("Invalid input\n");
         return 1;
     }
     int x;
-        switch(choice)
+        switch(c)
         {
         case'+':
         x = a+b;
@@ -23,7 +23,7 @@ int main(){
         break;
         case'/':
         if(b!=0){
-            c=a/b;
+            x=a/b;
             printf("%d\n",x);
         }else{
             printf("error\n");
