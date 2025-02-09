@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a,b
+    int a,b;
     char choice;
     if(scanf("%d%d%c",&a,&b,&choice)!=3){
         printf("Invalid input\n");
