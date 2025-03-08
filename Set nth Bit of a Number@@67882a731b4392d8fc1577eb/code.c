@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int setNthBit(int num, int n) {
-    return num | (1 << n);  
-}
-
 int main() {
-    int num, n, result;
+    int num, n;
 
     
     scanf("%d", &num);
 
-
     scanf("%d", &n);
 
-    result = setNthBit(num, n);
- return 0;
+    
+    num = num | (1 << n);
+
+    
+    printf("%d\n", n, num);
+
+    return 0;
 }
