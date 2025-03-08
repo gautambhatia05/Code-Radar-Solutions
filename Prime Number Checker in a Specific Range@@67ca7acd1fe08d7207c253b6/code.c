@@ -13,9 +13,9 @@ int main() {
     int start, end;
     
     // Taking range input from user
-    printf("Enter start of range: ");
+    
     scanf("%d", &start);
-    printf("Enter end of range: ");
+    
     scanf("%d", &end);
     
     // Print all primes in range
