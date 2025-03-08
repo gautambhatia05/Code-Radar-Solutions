@@ -3,6 +3,15 @@
 void fibonacciSeries(int n) {
     int a = 0, b = 1, next;
 
+    
+int main() {
+    int n;
+    scanf("%d", &n);
+    fibonacciSeries(n);  
+    return 0;
+}
+
+
     for (int i = 0; i < n; i++) {
         printf("%d ", a);
         next = a + b;
@@ -11,12 +20,3 @@ void fibonacciSeries(int n) {
     }
     printf("\n");
 }
-
-// Only one main function
-int main() {
-    int n;
-    scanf("%d", &n);
-    fibonacciSeries(n);  
-    return 0;
-}
-
