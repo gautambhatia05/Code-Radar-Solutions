@@ -2,8 +2,7 @@
 
 int main() {
     int n;
-    scanf("%d",&n);
-
+ scanf("%d",&n);
     // Outer loop to print all rows
     for (int i = 0; i < n; i++) {
 
@@ -13,8 +12,9 @@ int main() {
 
         // Second inner loop to print star * character
         for (int k = 0; k < 2 * i + 1; k++)
-            printf("%d ",k);
+            printf("* ");
         printf("\n");
     }
     return 0;
 }
+
