@@ -9,16 +9,6 @@ int isPrime(int n) {
     return 1; // Prime number
 }
 
-// Function to print all prime numbers in a given range
-void printPrimesInRange(int start, int end) {
-    for (int i = start; i <= end; i++) {
-        if (isPrime(i)) {
-            printf("%d ", i);
-        }
-    }
-    printf("\n");
-}
-
 int main() {
     int start, end;
     
@@ -33,4 +23,14 @@ int main() {
     printPrimesInRange(start, end);
     
     return 0;
+}
+
+// Function to print all prime numbers in a given range
+void printPrimesInRange(int start, int end) {
+    for (int i = start; i <= end; i++) {
+        if (isPrime(i)) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
 }
