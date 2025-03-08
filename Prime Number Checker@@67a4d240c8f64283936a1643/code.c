@@ -3,8 +3,8 @@
 int isPrime(int n);
 
 int main() {
-    int t;
-    scanf("%d", &t);
+    int n;
+    scanf("%d", &n);
     
     while (t--) {
         int num;
@@ -15,11 +15,11 @@ int main() {
     return 0;
 }
 
-// Function to check if a number is prime
+
 int isPrime(int n) {
-    if (n < 2) return 0;  // 0 and 1 are not prime numbers
+    if (n < 2) return 0; 
     for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) return 0;  // If divisible, not prime
+        if (n % i == 0) return 0;  
     }
-    return 1;  // Prime number
+    return 1;  
 }
