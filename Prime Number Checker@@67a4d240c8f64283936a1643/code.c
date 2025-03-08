@@ -9,6 +9,7 @@ int isPrime(int n) {
     return 1; // Otherwise, it's prime
 }
 
+
 int main() {
     int t;
     scanf("%d", &t); // Read number of test cases
