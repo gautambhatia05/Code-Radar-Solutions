@@ -13,7 +13,7 @@ int main()
             
             if (i > 0 && i < rows - 1 && j > 0
                 && j < rows - 1) {
-                printf("  ");
+                printf(" ");
             }
             else {
                 printf("*");
