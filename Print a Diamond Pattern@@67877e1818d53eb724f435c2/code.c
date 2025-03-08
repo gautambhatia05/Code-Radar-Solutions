@@ -1,29 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    
-    scanf("%d", &n);
+    int n = 5;
 
-    for (int i = 1; i <= n; i += 2) {
-        for (int j = 0; j < (n - i) / 2; j++) {
+    // First outer loop to iterator through each row
+    for (int i = 0; i < 2 * n - 1; i++) {
+
+        // Assigning values to the comparator according to
+        // the row number
+        int comp;
+        if (i < n) comp = 2 * (n - i) - 1;
+        else comp = 2 * (i - n + 1) + 1;
+
+        // First inner loop to print leading whitespaces
+        for (int j = 0; j < comp; j++)
             printf(" ");
-        }
-        for (int j = 0; j < i; j++) {
-            printf("*");
+
+        for (int k = 0; k < 2 * n - comp; k++) {
+            printf("* ");
         }
         printf("\n");
     }
-
-    for (int i = n - 2; i >= 1; i -= 2) {
-        for (int j = 0; j < (n - i) / 2; j++) {
-            printf(" ");
-        }
-        for (int j = 0; j < i; j++) {
-            printf("*");
-        }
-        printf("\n");
-    }
-
     return 0;
 }
