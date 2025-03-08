@@ -2,14 +2,11 @@
 
 // Function to check if a number is prime
 int isPrime(int n) {
-    if (n == 1) return 0; // 1 is not prime
-    if (n == 2) return 1; // 2 is prime
-    if (n % 2 == 0) return 0; // Even numbers > 2 are not prime
-
-    for (int i = 3; i * i <= n; i += 2) { // Check odd numbers only
-        if (n % i == 0) return 0;
+    if (n < 2) return 0; // 0 and 1 are not prime
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return 0; // If divisible, it's not prime
     }
-    return 1;
+    return 1; // Otherwise, it's prime
 }
 
 int main() {
@@ -18,9 +15,9 @@ int main() {
 
     while (t--) {
         int num;
-        scanf("%d", &num);
-        printf("%d\n", isPrime(num));
+        scanf("%d", &num); // Read each number
+        printf("%d\n", isPrime(num)); // Print result using isPrime function
     }
-    
+
     return 0;
 }
