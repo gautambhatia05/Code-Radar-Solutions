@@ -20,7 +20,7 @@ int main() {
     
     // Print all primes in range
     printf("Prime numbers between %d and %d are: ", start, end);
-    printPrimesInRange(start, end);
+   
     
     return 0;
 }
