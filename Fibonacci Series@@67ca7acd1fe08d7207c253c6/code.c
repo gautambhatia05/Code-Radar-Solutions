@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-
-void fibonacci(int n) {
+// Corrected function definition
+void fibonacciSeries(int n) {
     int a = 0, b = 1, next;
-    
-   scanf("%d",&n);
-   if(n<=0){
-    printf("Invalid input\n");
-    return 0;
-   }
+
+    if (n <= 0) {
+        printf("Invalid input\n");
+        return; // No need to return 0
+    }
+
     for (int i = 0; i < n; i++) {
         printf("%d ", a);
         next = a + b;
@@ -20,7 +20,12 @@ void fibonacci(int n) {
 
 int main() {
     int n;
+    
+    // Read input
     scanf("%d", &n);
-    fibonacci(n);  
+    
+    // Call the correct function
+    fibonacciSeries(n);
+
     return 0;
 }
