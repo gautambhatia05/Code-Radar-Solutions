@@ -11,7 +11,7 @@ int main() {
         else comp = 2 * (i - n + 1) + 1;
 
         for (int j = 0; j < comp; j++)
-            printf("");
+            printf(" ");
 
         for (int k = 0; k < 2 * n - comp; k++) {
             printf("*");
