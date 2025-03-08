@@ -11,8 +11,7 @@ int main()
      
         for (int j = 0; j < rows; j++) {
        
-            if (i > 0 && i < rows - 1 && j > 0
-                && j < rows - 1) {
+            if (i > 0 && i < rows - 1 && j > 0 && j < rows - 1) {
                 printf(" ");
             }
             else {
